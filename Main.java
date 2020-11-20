@@ -62,7 +62,7 @@ public class Main{
         }
         Thread.sleep(5000);
 
-        //and using a function like this will stop all the clips from playing
+        //and using something like this will stop all the clips from playing
         for(Clip c : clips){
             c.close();
         }
