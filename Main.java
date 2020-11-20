@@ -60,6 +60,12 @@ public class Main{
             c.start();
             //or you can do c.loop
         }
+        Thread.sleep(5000);
+
+        //and using a function like this will stop all the clips from playing
+        for(Clip c : clips){
+            c.close();
+        }
         Thread.sleep(10000);
 
         
